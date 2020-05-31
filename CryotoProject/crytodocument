@@ -1,0 +1,36 @@
+Welcome to Crypto.
+This program focuses on the use of parameters
+in passing variables from method to method in order to
+get the desired output.
+In our main method, we will need to user to input the string of
+text they would like encrypted as well as the shift value and
+group value for future methods.
+Our first method will be our normalize text method.
+This will turn all of the characters uppercase and
+remove any punctuation and white space from the line of text and
+return a string.
+Our next method will be called obify.
+This will take in the normalized text and insert a capital O and
+capital B in front of every vowel, including y, and
+return the obify text.
+Next, we will have our caesarify method.
+This method will take every letter individually and
+shift it down the alphabet a set number of times.
+For example, if our set number was three and our text was dog,
+it would become F-R-J instead of D-O-G.
+The function shift alphabet has been proved for
+you which does all the shifting for you.
+This method, again, will return the code that has been shifted.
+The next method is called groopify
+which will chunk the code into user stated sized chunks.
+In order to do this, we'll be inserting white space
+after a certain number of characters.
+In case the text you have is not evenly divisible by the group
+size, you'll need to add in some buffer at the end of the code,
+return a string and we can write our final method.
+The encrypts text method is what pulls everything together.
+You'll call you normalize text method on the input string.
+Call the obify method on the normalized text.
+Call the caesarify method on the obify text.
+And call the groopify method on the ceasar text.
+Print the final encrypted line of text and you're all set.
